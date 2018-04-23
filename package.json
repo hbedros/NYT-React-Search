@@ -11,6 +11,7 @@
     "deploy": "yarn build && git add . && git commit -m \"Building for production\" && git push heroku master",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "homepage": "https://hbedros.github.io/NYT-React-Search/",
   "author": "",
   "license": "ISC",
   "devDependencies": {
@@ -21,6 +22,7 @@
     "bluebird": "^3.5.0",
     "body-parser": "^1.17.2",
     "express": "^4.15.4",
+    "gh-pages": "^1.1.0",
     "mongoose": "^4.11.10"
   }
 }
